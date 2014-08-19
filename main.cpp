@@ -1,5 +1,3 @@
-// TODO FIGlet
-
 #include <iostream>
 #include <string>
 #include <time.h>
@@ -8,11 +6,8 @@
 
 using namespace std;
 
-//int g_length = 1000;
-// Get the console width.
-struct winsize w;
-ioctl(0, TIOCGWINSZ, &w);
-int g_length = w.ws_col;
+// strech length
+int g_length = 100;
 
 void wait(long m){
   long timeout = clock() + m;
@@ -38,11 +33,16 @@ string strech(string msg, int Llen = 0, int Rlen = g_length){
 
 int main(int argc, const char *argv[])
 {
+  // Get the console width.
+  struct winsize w;
+  ioctl(0, TIOCGWINSZ, &w);
+  g_length = w.ws_col; // strech limitation set up.
+
   std::cout << g_length << std::endl;
   string nyc = "Hello NYC!";
   string font_tool = "figlet ";
   int x = 0;
-  while(x < g_length){
+  while(x < g_length - 40){
     //std::cout << strech(nyc, x, g_length-x) << std::endl;
     system((font_tool + strech(nyc, x, g_length-x)).c_str());
     wait(50000);
