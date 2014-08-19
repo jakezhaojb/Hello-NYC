@@ -8,12 +8,14 @@ I came to United States on August 18th, 2014. This is my first time reaching thi
 Installation
 ------------
 This program supports only Linux and Mac; For Windows users, I'm sorry!      
-Try following commands in terminal to install it (e.g For Ubuntu users):<br\ >
+Try following commands in terminal to install it (e.g For Ubuntu users):
 ##### In terminal:
     make
     sudo make install
 Hopefully, the program "nyc" will be installed in ENV path. Run it by type **nyc** in terminal.
 You will see beautiful fonts moving in the console! Hope you'll enjoy.
+##### If you like, why not try this:
+    echo nyc >> ~/.bashrc
 
 Pre-requisite
 ----------------
