@@ -15,6 +15,11 @@ Hopefully, the program "nyc" will be installed in ENV path. Run it by:
         nyc
 You will see beautiful fonts moving in the console! Hope you'll enjoy.
 
+Pre-requisite
+----------------
+Make sure you have successfully installed [FIGlet](http://www.figlet.org/) <br\ >
+It is a tool for making beautiful fonts in terminal and very easy to install!
+
 Contacts
 --------------
 Ping me: zhaojunbo1992chasing@gmail.com
