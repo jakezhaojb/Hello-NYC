@@ -9,10 +9,10 @@ Installation
 ------------
 This program supports only Linux and Mac; For Windows users, I'm sorry!      
 Try following commands in terminal to install it (e.g For Ubuntu users):<br\ >
+##### In terminal:
     make
     sudo make install
-Hopefully, the program "nyc" will be installed in ENV path. Run it by:<br\ >
-    nyc
+Hopefully, the program "nyc" will be installed in ENV path. Run it by type **nyc** in terminal.
 You will see beautiful fonts moving in the console! Hope you'll enjoy.
 
 Pre-requisite
