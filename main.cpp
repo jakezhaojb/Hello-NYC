@@ -1,3 +1,5 @@
+// Produced by Jake Zhao, when first arriving United States.
+// ********************************************************
 #include <iostream>
 #include <string>
 #include <time.h>
