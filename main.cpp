@@ -44,7 +44,7 @@ int main(int argc, const char *argv[])
   string nyc = "Hello NYC!";
   string font_tool = "figlet ";
   int x = 0;
-  while(x < g_length - 40){
+  while(x < g_length - 25){
     //std::cout << strech(nyc, x, g_length-x) << std::endl;
     system((font_tool + strech(nyc, x, g_length-x)).c_str());
     wait(50000);
